@@ -117,3 +117,31 @@ console.log("Welcome to Programiz!",sum);
 // output - 5
 
 
+// create Unique array with method
+// 1.
+
+let arr2=[1, 2, 3, 4, 5, 5, 5];
+let arrRes=[ ...new Set(arr2)];
+console.log("Welcome to Programiz!",arrRes);
+
+// input - arr2=[1, 2, 3, 4, 5, 5, 5]
+// output - [ 1, 2, 3, 4, 5 ]
+
+
+// 2.
+let arr3=[1, 2, 3, 4, 5, 5, 5];
+
+function UniuqArr(arr3){
+    let resArr=[];
+    for(let i=0;i<arr3.length;i++){
+        if(!resArr.includes(arr3[i])){
+            resArr.push(arr3[i])
+        }
+    }
+    return resArr
+}
+
+console.log("Welcome to Programiz!",UniuqArr(arr3));
+
+// input - arr2=[1, 2, 3, 4, 5, 5, 5]
+// output - [ 1, 2, 3, 4, 5 ]
