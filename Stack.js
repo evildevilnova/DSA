@@ -44,3 +44,52 @@ let remove= stack.remove()
     stack.clear();
 
 console.log("Welcome to Programiz!",add,add1,size,lastEl,isEmpty,remove);
+
+
+
+// stack without using array
+
+class Node{
+    constructor(val){
+        this.value=val;
+        this.next=null
+    }
+}
+
+class Stack{
+    constructor(){
+        this.size=0;
+        this.first=null;
+        // this.last=null;
+    }
+    
+    push(val){
+        let node = new Node(val)
+        if(!this.first){
+            this.first=node;
+            // this.last=node;
+        }else{
+            let temp=this.first;
+            this.first=node;
+            this.first.next=temp;
+        }
+        return ++this.size;
+    }
+    
+    pop(){
+        if(!this.first) return null;
+        // if(this.first === this.last){
+        //     this.last=null;
+        // }
+        let temp=this.first;
+        this.first=this.first.next;
+        --this.size;
+        return temp.value
+    }
+}
+
+let stack1= new Stack();
+stack1.push(5)
+stack1.push(6)
+stack1.push(7)
+console.log("Welcome to Programiz!",stack1.pop());
