@@ -145,3 +145,6 @@ console.log("Welcome to Programiz!",UniuqArr(arr3));
 
 // input - arr2=[1, 2, 3, 4, 5, 5, 5]
 // output - [ 1, 2, 3, 4, 5 ]
+
+
+
