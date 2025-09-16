@@ -1,5 +1,42 @@
-// bubble sorting 
+
 let arr=[8,2,5,1];
+function insertionSort(arr) {
+    for (let i = 1; i < arr.length; i++) {
+        for (let j = i; j > 0 && arr[j] < arr[j - 1]; j--) {
+            [arr[j], arr[j - 1]] = [arr[j - 1], arr[j]];
+        }
+    }
+    return arr;
+}
+
+
+console.log(insertionSort(arr)); 
+// input arr=[8,2,5,1]
+// output - [ 1, 2, 5, 8 ]
+
+
+// insertion Sort 
+// function insertionSort(arr){
+//     for(let i=0;i<arr.length;i++){
+//         for(let j=i; j>-1;j--){
+//             if(arr[j+1]<arr[j]){
+//                 [arr[j+1],arr[j]]=[arr[j],arr[j+1]];
+//             }
+//         }
+//     }
+//     return arr
+// }
+
+// console.log("Welcome to Programiz!",insertionSort(arr));
+
+// input arr=[8,2,5,1]
+// output - [ 1, 2, 5, 8 ]
+
+
+
+
+// bubble sorting 
+
 function bubbleSort(arr){
     for(let i=0; i<arr.length;i++){
         for(let j=0;j<arr.length-i-1;j++){
@@ -17,22 +54,7 @@ console.log("Welcome to Programiz!",bubbleSort(arr));
 // output - [ 1, 2, 5, 8 ]
 
 
-// insertion Sort 
-function insertionSort(arr){
-    for(let i=0;i<arr.length;i++){
-        for(let j=i; j>-1;j--){
-            if(arr[j+1]<arr[j]){
-                [arr[j+1],arr[j]]=[arr[j],arr[j+1]];
-            }
-        }
-    }
-    return arr
-}
 
-console.log("Welcome to Programiz!",insertionSort(arr));
-
-// input arr=[8,2,5,1]
-// output - [ 1, 2, 5, 8 ]
 
 
 // selection sort 

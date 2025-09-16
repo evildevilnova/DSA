@@ -27,8 +27,6 @@ const RemoveNestedArray = (a)=>{
             RemoveNestedArray(a[i])
         }else{
             orgData.push(a[i])
-            
-
         }
     }
 
