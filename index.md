@@ -22,4 +22,4 @@
 23. Clone an object deep/shallow
 24. second largest
 25. palindrome str-reverse
-26. Binary Search                        ---
+26. Binary Search
