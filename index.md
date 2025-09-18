@@ -2,6 +2,7 @@
 2. sorting
 3. closures
 4. Pyramid
+5. palindrome str-reverse
 6. delete in array
 7. prime Number
 8. find Pairs of number sum is 8
@@ -21,5 +22,5 @@
 22. promise
 23. Clone an object deep/shallow
 24. second largest
-25. palindrome str-reverse
-26. Binary Search
+25. Binary Search
+26. 
