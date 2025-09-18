@@ -17,7 +17,7 @@
 18. vowels (a,e,i,o,u)                   ---
 19. repeated string/character
 20. remove duplicates
-21. Fibonacci
+21. Fibonacci ex- 0+1+1+2+3+5
 22. promise
 23. Clone an object deep/shallow
 24. second largest
