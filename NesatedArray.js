@@ -2,13 +2,6 @@
 // JavaScript me constructor ek property hoti hai jo batati hai ki koi object kis class/function se banaya gaya hai.
 // Ye har object ke paas hoti hai (kyunki wo prototype chain ka hissa hai).
 
-// Example 1: Numbers, Strings, Arrays
-// console.log((123).constructor);      // [Function: Number]
-// console.log(("hello").constructor);  // [Function: String]
-// console.log(([1,2,3]).constructor);  // [Function: Array]
-// console.log(({}).constructor);       // [Function: Object]
-
-
 
 let NestedArray = [1, [2, [3, 4], 5], 6];
   let orgData =[]

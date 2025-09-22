@@ -22,18 +22,22 @@
 14. find Pairs of number sum is 8
 15. Fibonacci ex- 0+1+1+2+3+5
 16. second largest
+17. find missing number 
 
 <!-- Performace -->
-17. memoization
-18. closures counter ✅
-19. debounce
-20. throttle
-21. Polyfill
-22. promise ✅
+18. memoization
+19. closures counter ✅
+20. debounce
+21. throttle
+22. Polyfill
+23. promise ✅
 
 <!-- Object -->
-23. object Compare
-24. Clone Object deep
+24. object Compare
+25. Clone Object deep
 
 <!-- search -->
-25. Binary Search
+26. Binary Search
+
+<!-- typeof -->
+27. typeof
