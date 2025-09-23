@@ -1,21 +1,22 @@
 <!-- Practice -->
 - sorting
+- SecondLargest
 
 <!-- String -->
 1. reverse String ✅
 2. vowels (a,e,i,o,u)
 3. palindrome str-reverse ✅
 4. repeated string/character
-5. Pyramid
+5. Pyramid ✅
 
 <!-- array -->
-6. delete in array 
+6. delete in array ✅
 7. remove duplicates ✅
-8. flat Array
+8. flat Array 
 9. sorting ✅
 
 <!-- Number -->
-10. prime Number
+10. Prime Number ✅
 11. factorial ✅
 12. Armstrong
 13. sum of all number ✅
@@ -27,17 +28,17 @@
 <!-- Performace -->
 18. memoization
 19. closures counter ✅
-20. debounce
+20. debounce ✅
 21. throttle
 22. Polyfill
 23. promise ✅
 
 <!-- Object -->
-24. object Compare
+24. object Compare 
 25. Clone Object deep
 
 <!-- search -->
 26. Binary Search
 
 <!-- typeof -->
-27. typeof
+27. typeof ✅
