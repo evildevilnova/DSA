@@ -1,6 +1,5 @@
-<!-- Practice -->
-- sorting
-- SecondLargest
+<!-- Practice --> 
+
 
 <!-- String -->
 1. reverse String ✅
@@ -12,7 +11,7 @@
 <!-- array -->
 6. delete in array ✅
 7. remove duplicates ✅
-8. flat Array 
+8. flat Array ✅
 9. sorting ✅
 
 <!-- Number -->
@@ -20,21 +19,21 @@
 11. factorial ✅
 12. Armstrong
 13. sum of all number ✅
-14. find Pairs of number sum is 8
-15. Fibonacci ex- 0+1+1+2+3+5
-16. second largest
-17. find missing number 
+14. find Pairs of number sum is 8 ✅
+15. Fibonacci ex- 0+1+1+2+3+5 ✅
+16. second largest ✅
+17. find missing number ✅
 
 <!-- Performace -->
 18. memoization
 19. closures counter ✅
 20. debounce ✅
 21. throttle
-22. Polyfill
+22. Polyfill ✅
 23. promise ✅
 
 <!-- Object -->
-24. object Compare 
+24. object Compare ✅
 25. Clone Object deep
 
 <!-- search -->
