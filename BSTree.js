@@ -18,7 +18,6 @@ class BSTree{
         }else{
             this.recInsert(this.root,newNode)
         }
-        
     }
     
     recInsert(root,node){
