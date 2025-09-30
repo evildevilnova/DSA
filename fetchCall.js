@@ -20,3 +20,10 @@ async function createPost() {
 }
 
 createPost();
+
+// GET request
+fetch("https://jsonplaceholder.typicode.com/posts/1")
+  .then((response) => response.json()) // convert to JSON
+  .then((data) => console.log("Data:", data))
+  .catch((error) => console.error("Error:", error));
+
