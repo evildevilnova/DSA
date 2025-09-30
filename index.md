@@ -17,7 +17,7 @@
 <!-- Number -->
 10. Prime Number ✅
 11. factorial ✅
-12. Armstrong
+12. Armstrong 
 13. sum of all number ✅
 14. find Pairs of number sum is 8 ✅
 15. Fibonacci ex- 0+1+1+2+3+5 ✅
