@@ -47,6 +47,23 @@ class BSTree{
             return this.searchNode(root.right,value)
         }
     }
+
+    BFSTraversing(){
+        let queue=[];
+        queue.push(this.root)
+        
+        while(queue.length){
+            let current=queue.shift()
+            if(current.left){
+                queue.push(current.left)
+            }
+            if(current.right){
+                queue.push(current.right)
+            }
+            console.log("queue",current.value)
+        }
+    }
+    
 }
 
 let obj = new BSTree()
@@ -55,4 +72,5 @@ obj.insertNode(2)
 obj.insertNode(12)
 obj.insertNode(6)
 let rs=obj.searchNode(obj.root,6)
+obj.BFSTraversing()
 console.log("Try programiz.pro",obj,rs);

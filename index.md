@@ -43,5 +43,5 @@
 27. typeof ✅
 
 28. custom Hook
-29. BST tree
+29. BST tree ✅
 30. Fetch API call
