@@ -64,6 +64,22 @@ class BSTree{
         }
     }
     
+    minValue(root){
+        if(!root.left){
+            return root.value
+        }else{
+            return this.minValue(root.left)
+        }
+    }
+    
+    maxValue(root){
+        if(!root.right){
+            return root.value
+        }else{
+            return this.maxValue(root.right)
+        }
+    }
+    
 }
 
 let obj = new BSTree()
@@ -73,4 +89,6 @@ obj.insertNode(12)
 obj.insertNode(6)
 let rs=obj.searchNode(obj.root,6)
 obj.BFSTraversing()
-console.log("Try programiz.pro",obj,rs);
+let min=obj.minValue(obj.root)
+let max=obj.maxValue(obj.root)
+console.log("Try programiz.pro",obj,"\n",min,max);
